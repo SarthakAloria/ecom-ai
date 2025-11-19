@@ -1,15 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="90" height="36" viewBox="0 0 90 36"
-     role="img" aria-label="× AI">
-  <title>× AI</title>
-  
-  <text x="0" y="50%" dy="0.35em"
-        fill="#ff8c00"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="26" font-weight="600">×</text>
-
-  <text x="22" y="50%" dy="0.35em"
-        fill="#ff8c00"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="26" font-weight="600">AI</text>
+     width="90" height="28" viewBox="0 0 90 28">
+  <text x="0" y="22" fill="#ff8c00" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="600">×</text>
+  <text x="22" y="22" fill="#ff8c00" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="600">AI</text>
 </svg>
