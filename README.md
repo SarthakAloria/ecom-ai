@@ -1,5 +1,7 @@
 <h1 align="center">
-  ecom-ai · MERN Commerce <span style="color:orange">× AI</span> 🛍️🤖
+  ecom-ai · MERN Commerce 
+  <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' height='36'><text x='0' y='28' fill='orange' font-size='28' font-family='Arial, sans-serif'>× AI</text></svg>" alt="AI" style="vertical-align:middle; display:inline-block; margin:0; padding:0;" />
+  🛍️🤖
 </h1>
 
 <p align="center">

@@ -1,4 +1,6 @@
 const { default: mongoose } = require("mongoose");
+const userRoles = require("../domain/userRole");
+const accountStatus = require("../domain/accountStatus");
 
 const sellerSchema = new mongoose.Schema({
     sellerName: {
@@ -31,31 +33,56 @@ const sellerSchema = new mongoose.Schema({
             unique: true
         },
         buisnessMobile: {
-            type: String,
+            type: String
         },
         buisnessAddress: {
-            type: String,
+            type: String
         }
     },
     bankDetails: {
         accountNumber: {
             type: String,
-            required: true,
+            required: true
         },
         accountHolderName: {
             type: String,
-            required: true,
+            required: true
         },
         bankName: {
             type: String,
-            required: true,
+            required: true
         },
         ifscCode: {
             type: String,
-            required: true,
+            required: true
         }
     },
     pickUpAddress: {
         type: mongoose.Schema.Types.ObjectId,
+        ref: "Address"
     },
-});
+    GSTIN: {
+        type: String,
+        required: true
+    },
+    role: {
+        type: String,
+        enum: [userRoles.SELLER],
+        default: userRoles.SELLER
+    },
+    accountStatus: {
+        type: String,
+        enum: [
+            accountStatus.PENDING_VERIFICATION,
+            accountStatus.ACTIVE,
+            accountStatus.SUSPENDED,
+            accountStatus.DEACTIVATED,
+            accountStatus.BANNED,
+            accountStatus.CLOSED
+        ],
+        default: accountStatus.PENDING_VERIFICATION
+    }
+}, { timestamps: true });
+
+const Seller = mongoose.model("Seller", sellerSchema);
+module.exports = Seller;
