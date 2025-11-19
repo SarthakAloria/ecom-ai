@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "backend for multivendor ecommerce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Sarthak Aloria",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-validator": "^7.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.4",
+    "nodemon": "^3.1.11"
+  }
+}
