@@ -1,6 +1,14 @@
 <h1 align="center">
   ecom-ai · MERN Commerce 
-  <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' height='36'><text x='0' y='28' fill='orange' font-size='28' font-family='Arial, sans-serif'>× AI</text></svg>" alt="AI" style="vertical-align:middle; display:inline-block; margin:0; padding:0;" />
+  <img 
+    alt="AI"
+    height="36"
+    src="data:image/svg+xml;utf8,
+    <svg xmlns='http://www.w3.org/2000/svg' width='80' height='36'>
+      <text x='0' y='28' fill='orange' font-size='28' font-family='Arial'>X AI</text>
+    </svg>"
+    style="vertical-align:middle; display:inline-block; margin:0; padding:0;" 
+  />
   🛍️🤖
 </h1>
 
@@ -149,8 +157,8 @@ Your server is now ready for development. Frontend setup will be added later.
 | Name | GitHub | Role |
 |------|--------|------|
 | Sarthak Aloria | [SarthakAloria](https://github.com/SarthakAloria) | Backend & AI (Express server, MongoDB models, Gemini AI chatbot, semantic search) |
-| Jivesh Koli | [teammate1](https://github.com/Jivesh-koli) | Backend support (API routes, authentication, server-side validation, user & seller panels) |
-| Teammate 2 | [teammate2](https://github.com/teammate2) | Frontend (React components for User, Seller, Admin dashboards, UI/UX polish) |
-| Teammate 3 | [teammate3](https://github.com/teammate3) | QA & DevOps (testing, deployment scripts, documentation, backend utilities) |
+| Jivesh Koli | [Jivesh-koli](https://github.com/Jivesh-koli) | Backend support (API routes, authentication, server-side validation, user & seller panels) |
+| Teammate-Name | [GitHub-ID](https://github.com/teammate2) | Frontend (React components for User, Seller, Admin dashboards, UI/UX polish) |
+| Teammate-Name | [GitHub-ID](https://github.com/teammate3) | QA & DevOps (testing, deployment scripts, documentation, backend utilities) |
 
 ---
