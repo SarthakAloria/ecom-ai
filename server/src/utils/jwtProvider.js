@@ -1,5 +1,6 @@
 const jwt = require('jsonwebtoken');
-const secretKey = process.env.JWT_SECRET
+require('dotenv').config();
+const secretKey = process.env.JWT_SECRET;
 
 class JwtProvider {
     constructor(secretKey) {
