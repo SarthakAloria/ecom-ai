@@ -15,7 +15,7 @@ class SellerService {
         savedAddress = await Address.create(sellerData.pickupAddress);
 
         const newSeller = new Seller({
-            sellerName: sellerData.name,
+            sellerName: sellerData.sellerName,
             email: sellerData.email,
             password: sellerData.password,
             pickupAddress: savedAddress._id,

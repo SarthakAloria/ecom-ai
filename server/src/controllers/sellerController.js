@@ -87,3 +87,5 @@ class SellerController {
         }
     }
 }
+
+module.exports = new SellerController();
